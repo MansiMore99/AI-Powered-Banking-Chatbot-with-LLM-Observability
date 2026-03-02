@@ -195,7 +195,7 @@ WANDB_PROJECT=mistral-hackathon # W&B project name
 
 #### 3. Install frontend dependencies
 ```
-bashnpm install
+npm install
 ```
 
 #### Running the App
@@ -215,7 +215,7 @@ Starts Flask on http://localhost:5001
 
 **Terminal 2 — React frontend:**
 ```
-bashnpm run dev
+npm run dev
 ```
 #### Vite starts on http://localhost:3000
 #### All /api/* requests proxied to Flask on port 5001
